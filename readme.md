@@ -1,4 +1,4 @@
-#[Read Documentation on the project](https://www.notion.so/Full-Stack-Django-React-2a06217989ea80658896d2e40e0eceab)
+# [Read Documentation on the project](https://www.notion.so/Full-Stack-Django-React-2a06217989ea80658896d2e40e0eceab)
 
 # NOTES App Using Django, React, and SQLite
 
