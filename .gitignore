@@ -1,0 +1,15 @@
+# Ignore Python bytecode files
+__pycache__/
+*.pyc
+
+# Ignore virtual environment
+venv/
+
+# Ignore SQLite database file
+db.sqlite3
+
+# Ignore Django migration files
+backend/api/migrations/
+
+# Ignore environment variables file
+.env
