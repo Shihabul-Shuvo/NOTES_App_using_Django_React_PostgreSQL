@@ -81,7 +81,7 @@ WSGI_APPLICATION = 'backend.wsgi.application'
 # CORS_ALLOW_ORIGINS =  [
 #     "http://localhost:5173",]
 
-STATIC_ROOT = BASE_DIR, 'staticfiles'
+STATIC_ROOT = BASE_DIR/ 'staticfiles'
 
 # Database
 # https://docs.djangoproject.com/en/5.2/ref/settings/#databases
