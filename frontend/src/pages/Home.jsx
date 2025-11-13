@@ -13,14 +13,17 @@ function Home() {
     }, []);
 
     const getNotes = () => {
-        api
-            .get("/api/notes/")
-            .then((res) => res.data)
-            .then((data) => {
-                setNotes(data);
-                console.log(data);
-            })
-            .catch((err) => alert(err));
+    api
+        .get("/api/notes/")
+        .then((res) => res.data)
+        .then((data) => {
+            setNotes(Array.isArray(data) ? data : []);
+            console.log(data);
+        })
+        .catch((err) => {
+            console.error(err);
+            alert('Failed to fetch notes');
+        });
     };
 
     const deleteNote = (id) => {
